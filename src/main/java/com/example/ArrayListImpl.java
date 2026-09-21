@@ -10,6 +10,7 @@ public class ArrayListImpl {
         list.add(83);
         list.add(1);
         list.add(1);
+        list.add(90);
 
         System.out.println(list);
         System.out.println(list.get(3));
