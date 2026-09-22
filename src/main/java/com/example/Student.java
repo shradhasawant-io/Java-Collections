@@ -1,8 +1,22 @@
 package com.example;
 
-public class Student {
+public class Student implements Comparable<Student>{
+
+    @Override
+    public int compareTo(Student o) {
+        return Double.compare(o.getGpa(), this.getGpa());
+    }
+
     private String name;
     private double gpa;
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", gpa=" + gpa +
+                '}';
+    }
 
     public Student(String name, double gpa) {
         this.name = name;
