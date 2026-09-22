@@ -10,7 +10,10 @@ public class ArrayListIV {
         list.add(2);
         list.add(3);
 
-        list.remove(Integer.valueOf(1));
-        System.out.println(list);
+        /*list.remove(Integer.valueOf(1));
+        System.out.println(list);*/
+
+        Object[] object = list.toArray();
+        Integer[] arr1 = list.toArray(new Integer[0]);
     }
 }
