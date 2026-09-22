@@ -27,5 +27,7 @@ public class ArrayListImpl {
         System.out.println(list);
 
         System.out.println(list.contains(90));
+        list.add(4,600);
+        System.out.println(list);
     }
 }
