@@ -25,5 +25,7 @@ public class ArrayListImpl {
 
         System.out.println(list.remove(4));
         System.out.println(list);
+
+        System.out.println(list.contains(90));
     }
 }
